@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: rgb(108, 174, 224);
+
+    }
+
+    table {
+      margin-top: 120px;
+      border-radius: 50px;
+
+      background-color: rgb(117, 184, 229);
+      color: aliceblue;
+    }
+
+    .submit,
+    .reset {
+      color: #fff;
+      border: #fff solid 0px;
+
+      width: 100px;
+      height: 35px;
+      font-size: 24px;
+      background-color: rgba(255, 255, 255, .1);
+      border-radius: 20px;
+      font: right;
+
+    }
+
+    .submit:hover {
+      color: #000;
+      background-color: #fff;
+    }
+
+    .reset:hover {
+      color: #000;
+      background-color: #fff;
+    }
+
+    input {
+      border-radius: 7px;
+    }
+  </style>
+</head>
+
+<body>
+  <table width="570" border="0" align="center" bgcolor="FFFFFF">
+    <form action="hgghg.jsp">
+      <tr>
+        <td height="122" colspan="2" align=center>
+          <H2>加入我们</H2>
+        </td>
+      </tr>
+
+      <tr>
+        <td height="36" colspan="2">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td>
+          <div align="right">姓名:</div>
+        </td>
+        <td><input type="text"></td>
+      </tr>
+
+      </tr>
+      <tr>
+        <td>
+          <div align="right">性别:</div>
+        </td>
+        <td>男<input type="radio" value="男" name="sex">
+          女<input type="radio" value="女" name="sex">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div align="right">Email邮件:</div>
+        </td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>
+          <div align="right">密码:</div>
+        </td>
+        <td><input type="password">
+
+      </tr>
+      <tr>
+        <td>
+          <div align="right">确认密码:</div>
+        </td>
+        <td><input type="password"></td>
+      </tr>
+
+      <tr>
+        <td height="31">
+          <div align="right">出生日期:</div>
+        </td>
+        <td><input type="date"></td>
+      </tr>
+     
+      <tr>
+        <td align="right">
+          爱好：
+        </td>
+        <td>
+          <input type="checkbox">音乐
+          <input type="checkbox">手绘
+          <input type="checkbox">阅读
+        </td>
+      </tr>
+      <tr>
+
+        <td align="right">
+          所在地：
+        </td>
+        <td>
+          <select name="country">
+            <option value="1">中国</option>
+            <option value="2">日本</option>
+            <option value="3">法国</option>
+          </select>
+          <select name="city">
+            <option value="1">北京</option>
+            <option value="2">山西</option>
+            <option value="3">成都</option>
+          </select>
+          <select name="area">
+            <option value="1">大同</option>
+            <option value="2">平遥</option>
+            <option value="3">忻州</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div align="right">留言：</div>
+        </td>
+        <td><input text></td>
+      </tr>
+
+      <tr>
+        <td height="77">
+          <div align="right">
+            <!-- <input type="submit" class="submit" value="Submit" onClick="window.location='首页.html'> -->
+            <input type="button" value="注册" class="submit" onClick="javascript:location='首页.html';">
+          </div>
+        </td>
+        <td>
+          <div align="center">
+            <input type="reset" class="reset" value="重置">
+          </div>
+        </td>
+      </tr>
+    </form>
+  </table>
+</body>
+
+</html>
